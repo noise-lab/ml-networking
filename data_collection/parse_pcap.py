@@ -5,7 +5,6 @@ import sys
 import os
 
 
-
 def parse_pcap(pcap_file):
     '''Parses a pickle file into a list of dicts.
 
