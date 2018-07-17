@@ -3,9 +3,13 @@ import pickle
 import datetime
 import sys
 import os
+import ipaddress
+import netaddr
+import numpy as np
+import pandas as pd
 
 
-def parse_pcap(pcap_file):
+def pcap_to_dict(pcap_file):
     '''Parses a pickle file into a list of dicts.
 
     Arguments:
@@ -32,7 +36,7 @@ def parse_pcap(pcap_file):
     with PcapReader(pcap_file) as pcap_reader:
         for i, pkt in enumerate(pcap_reader):
             pkt_dict = {}
-            if i % 1000 == 0: print(i)
+            if i % 1000 == 0 and i != 0: print(i)
             try:
                 if Ether not in pkt:
                     continue
@@ -78,7 +82,36 @@ def parse_pcap(pcap_file):
                 continue
     return data
 
-        
+
+def pcap_to_pandas(pcap_file):
+    '''Parses pcap file into pandas DataFrame.
+
+    Arguments:
+        pcap_file: string filepath of pcap file
+
+    Returns:
+      DataFrame with one packet per row
+        column names are the keys from pcap_to_dict plus
+        'ip_dst_int', 'ip_src_int', 'mac_dst_int', 'mac_dst_int'
+    '''
+    data = pcap_to_dict(pcap_file)
+    pd_data = pd.DataFrame(data)
+    pd_data["datetime"] = pd_data["datetime"].apply(lambda x: np.datetime64(x))
+    pd_data["datetime"] = pd.to_datetime(pd_data['datetime'])
+    pd_data['ip_dst_int'] = pd_data['ip_dst'].apply(
+        lambda x: None if x is None else int(ipaddress.ip_address(x)))
+    pd_data['ip_src_int'] = pd_data['ip_src'].apply(
+        lambda x: None if x is None else int(ipaddress.ip_address(x))) 
+    pd_data["mac_dst_int"] = pd_data["mac_dst"].apply(
+        lambda x: None if x is None else int(netaddr.EUI(x)))
+    pd_data["mac_src_int"] = pd_data["mac_src"].apply(
+        lambda x: None if x is None else int(netaddr.EUI(x)))
+    pd_data["time_normed"] = pd_data["time"].apply(
+        lambda x: x - pd_data.iloc[0]['time'])
+    pd_data = pd_data.sort_index(axis=1)
+    return pd_data
+
+    
 def parse_and_save_pcap(pcap_file, pickle_file):
     '''Parses pcap file and saves results as a compressed pickle file.
 
@@ -86,10 +119,9 @@ def parse_and_save_pcap(pcap_file, pickle_file):
       pcap_file: path of pcap file
       pickle_file: path to sae pickle file
     '''
-    data = parse_pcap(pcap_file)
-    with open(pickle_file, 'wb') as f:
-        pickle.dump(data, f, pickle.HIGHEST_PROTOCOL)
-
+    data = pcap_to_pandas(pcap_file)
+    data.to_pickle(pickle_file)
+    
         
 def load_parsed_pcap(pickle_file):
     '''Reads already parsed pickle file back into memory.
@@ -98,12 +130,10 @@ def load_parsed_pcap(pickle_file):
       pickle_file: path to pickle file saved by parse_and_save_pcap()
     
     Returns:
-      List of packet dicts in the format created by parse_pcap()
+      pandas dataframe in the format created by pcap_to_pandas()
     '''
-    with open(pickle_file, 'rb') as f:
-        data = pickle.load(f)
-        return data
-                        
+    data = pd.read_pickle(pickle_file)
+    return data                        
 
 #
 # Main takes pcap filepath, parses and saves as pickle file.
@@ -118,5 +148,5 @@ if __name__ == "__main__":
     if len(sys.argv) > 2:
         pickle_file = sys.argv[2]
     else:
-        pickle_file = os.path.splitext(pcap_file)[0] + ".pickle"
+        pickle_file = os.path.splitext(pcap_file)[0] + ".pkl"
     parse_and_save_pcap(pcap_file, pickle_file)
