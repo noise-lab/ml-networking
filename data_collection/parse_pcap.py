@@ -138,7 +138,7 @@ def load_parsed_pcap(pickle_file):
 #
 # Main takes pcap filepath, parses and saves as pickle file.
 #  Pickle filepath can be specified as second command line argument
-#  or will default to the same path as the pcap file with .pickle extension
+#  or will default to the same path as the pcap file with .pkl extension
 #
 if __name__ == "__main__":
     if len(sys.argv) == 1:
