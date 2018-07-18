@@ -1,6 +1,8 @@
 # AI4All-IoT
 Repository for Princeton University 2018 AI4All IoT project. 
 
+## Schedule
+
 *Monday 7/23/18 - Thursday 8/26/18:* [data_collection.ipynb](https://github.com/NoahApthorpe/AI4All-IoT/blob/master/data_collection.ipynb)
 
 *Friday 7/27/18:* [logistic.ipynb](https://github.com/NoahApthorpe/AI4All-IoT/blob/master/logistic.ipynb)
