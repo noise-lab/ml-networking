@@ -9,9 +9,9 @@ Repository for Princeton University 2018 AI4All IoT project.
 
 *Monday 7/30/18:* [decision_trees.ipynb](https://github.com/NoahApthorpe/AI4All-IoT/blob/master/decision_trees.ipynb)
 
-*Tuesday 7/31/18:*
+*Tuesday 7/31/18:* [probability.ipynb](https://github.com/NoahApthorpe/AI4All-IoT/blob/master/probability.ipynb)
 
-*Wednesday 8/1/18:*
+*Wednesday 8/1/18:* [Unsupervised Learning](https://docs.google.com/document/d/1Pw3QQBT7BvSTljynJluE8CJ0ebz_9jWoN9DC5PKf1WE/edit?usp=sharing)
 
 *Thursday 8/2/18:* Field trip, no project work
 
