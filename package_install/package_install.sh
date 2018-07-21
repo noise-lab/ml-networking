@@ -3,7 +3,7 @@
 if [[ “$OSTYPE” == “linux-gnu” ]]; then
     # ...
     curl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh > anaconda_install.sh
-elif [[ “$OSTYPE” == “darwin”* ]]; then
+elif [[ “$OSTYPE” == “Darwin”* ]]; then
     # Mac OSX
     curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh > anaconda_install.sh
 elif [[ “$OSTYPE” == “msys” ]]; then
