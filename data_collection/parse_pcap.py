@@ -36,7 +36,7 @@ def pcap_to_dict(pcap_file):
     with PcapReader(pcap_file) as pcap_reader:
         for i, pkt in enumerate(pcap_reader):
             pkt_dict = {}
-            if i % 1000 == 0 and i != 0: print(i)
+            #if i % 1000 == 0 and i != 0: print(i)
             try:
                 if Ether not in pkt:
                     continue
