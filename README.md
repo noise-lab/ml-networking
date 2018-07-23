@@ -32,3 +32,6 @@ Repository for Princeton University 2018 AI4All IoT project.
 *Thursday 8/9/18:* Poster making & presentation practice
 
 *Friday 8/10/18:* Final presentations
+
+## Devices Survey
+https://docs.google.com/forms/d/e/1FAIpQLSdm-LO0B4Tg3xxjzUENc1gZe39Y-eJGOIh0W1PQhE3MYc1tBw/viewform
