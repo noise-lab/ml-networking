@@ -13,7 +13,7 @@ Repository for Princeton University 2018 AI4All IoT project.
 
 *Friday 7/27/18:* [5_Regression.ipynb](https://github.com/NoahApthorpe/AI4All-IoT/blob/master/5_Regression.ipynb)
 
-*Monday 7/30/18:* [6_Decision_Trees.ipynb](https://github.com/NoahApthorpe/AI4All-IoT/blob/master/6_Decision_Trees.ipynb)
+*Monday 7/30/18:* [6_Nearest_Neighbors.ipynb](https://github.com/NoahApthorpe/AI4All-IoT/blob/master/6_Nearest_Neighbors.ipynb)
 
 *Tuesday 7/31/18:* [7_Probability.ipynb](https://github.com/NoahApthorpe/AI4All-IoT/blob/master/7_Probability.ipynb)
 
