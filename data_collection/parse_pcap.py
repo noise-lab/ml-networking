@@ -133,7 +133,39 @@ def load_parsed_pcap(pickle_file):
       pandas dataframe in the format created by pcap_to_pandas()
     '''
     data = pd.read_pickle(pickle_file)
-    return data                        
+    return data
+
+
+def send_rates(data, window_len_sec):
+    '''Calculates send rates from packet DataFrames
+
+    Arguments:
+      data: pandas DataFrame with 'time' and 'length' columns 
+              like that returned from pcap_to_pandas()
+      window_len_sec: interval for calculating rates
+
+    Returns:
+       rates: array of send rates
+       times: array of times corresponding to each window in rates
+    '''
+    data = data.sort_values(by=["time"])
+    windows = []
+    times = []
+    curr_time = data.iloc[0]["time"]
+    end_time = curr_time + window_len_sec
+    i = 0
+    while curr_time < data.iloc[-1]["time"]:
+        windows.append(0)
+        times.append(curr_time)
+        while i < len(data) and data.iloc[i]["time"] < end_time:
+            windows[-1] += data.iloc[i]["length"]
+            i += 1
+        curr_time = end_time
+        end_time = curr_time + window_len_sec
+    rates = np.array(windows) / float(window_len_sec)
+    times = np.array(times)
+    return rates, times
+
 
 #
 # Main takes pcap filepath, parses and saves as pickle file.
