@@ -16,3 +16,11 @@ A general structure for a short course on this material is as follows. Each lect
 | 8       | Open Problems         |        |          |         |
 
 Please come to class having done the reading. Each class with also have a short homework assignment and a short accompanying quiz to track your knowledge of the material.
+
+The repository has the following organization:
+
+* example_pcaps/ - example packet captures used in notebooks
+* data/ - other data used in notebooks (non-pcap)
+* lectures/ - slides for each lecture
+* notebooks/ - notebooks for each lecture
+* reading/ - reading for lectures, as applicable
