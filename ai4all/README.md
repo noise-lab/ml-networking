@@ -1,4 +1,8 @@
-# AI4All-IoT
+# Old Material
+
+This directory contains old, dated material from Princeton's AI4All Program. This directory should eventually be deleted.
+
+## AI4All-IoT
 Repository for Princeton University 2018 AI4All IoT project. 
 
 ## Schedule
