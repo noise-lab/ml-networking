@@ -18,7 +18,7 @@ A general structure for a short course on this material is as follows. Each lect
 | 3       | Linear Regression              | IoT: Energy Prediction |                        |
 | 4       | Logistic Regression            | DNS Query Detection    |                        |
 | 5       | Naive Bayes                    | Spam Filtering         |                        |
-| 6       | Nearest Neighbor               | Nearest Neighbor       |                        |
+| 6       | Nearest Neighbor/Trees/Ensemble| Activity Recognition   |                        |
 | 7       | Unsupervised Learning          | Traffic Clustering     |                        |
 | 8       | Deep Learning                  | DDoS Detection         |                        |
 
