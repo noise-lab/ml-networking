@@ -28,7 +28,7 @@ Each week will also have a short homework assignment and a short accompanying qu
 
 ## Resources
 
-* [Class Wiki](wiki)
+* [Wiki](https://noise-lab.github.io/ml-networking/wiki)
 
 ## Repository
 
