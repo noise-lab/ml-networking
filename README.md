@@ -26,6 +26,10 @@ Please come to class having done the reading.
 
 Each week will also have a short homework assignment and a short accompanying quiz to track your knowledge of the material.
 
+## Resources
+
+* [Class Wiki](wiki)
+
 ## Repository
 
 The repository has the following organization:
