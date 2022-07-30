@@ -30,8 +30,8 @@ Each week will also have a short homework assignment and a short accompanying qu
 
 The repository has the following organization:
 
-* pcaps/ - example packet captures used in notebooks
-* data/ - other data used in notebooks (non-pcap)
-* lectures/ - slides for each lecture
-* notebooks/ - notebooks for each lecture
-* reading/ - reading for lectures, as applicable
+* [pcaps/](pcaps/) - example packet captures used in notebooks
+* [data/](data/) - other data used in notebooks (non-pcap)
+* [lectures/](lectures/) - slides for each lecture
+* [notebooks/](notebooks/) - notebooks for each lecture
+* [reading/](reading/) - reading for lectures, as applicable
