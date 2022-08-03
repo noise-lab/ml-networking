@@ -13,14 +13,15 @@ A general structure for a short course on this material is as follows. Each lect
 
 | Lecture | Topic                           | Lab                    | Notes |
 |---------|---------------------------------|------------------------|-------|
-| 1       | Machine Learning/Python Basics  | Python Basics          |       |
-| 2       | Network Measurement             | Traffic Analysis       |       |
-| 3       | Linear Regression               | IoT: Energy Prediction |       |
-| 4       | Logistic Regression             | DNS Query Detection    |       |
-| 5       | Naive Bayes                     | Spam Filtering         |       |
-| 6       | Nearest Neighbor/Trees/Ensemble | Activity Recognition   |       |
-| 7       | Unsupervised Learning           | Traffic Clustering     |       |
-| 8       | Deep Learning                   | DDoS Detection         |       |
+| 1       | Intro to Networking             |                        |       |
+| 2       | Intro to Machine Learning       |                        |       |
+| 3       | Network Measurement             |                        |       |
+| 4       | Linear Regression               | IoT: Energy Prediction |       |
+| 5       | Logistic Regression             | DNS Query Detection    |       |
+| 6       | Naive Bayes                     | Spam Filtering         |       |
+| 7       | Nearest Neighbor/Trees/Ensemble | Activity Recognition   |       |
+| 8       | Unsupervised Learning           | Traffic Clustering     |       |
+| 9       | Deep Learning                   | DDoS Detection         |       |
 
 Please come to class having done the reading. 
 
