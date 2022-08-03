@@ -11,17 +11,17 @@ This repository contains exercises, resources, and information for learning mach
 
 A general structure for a short course on this material is as follows. Each lecture has (1) a set of slides explaining concepts, (2) an accompanying Jupyter Notebook with example applications from networking to make the concepts more concrete and further expand on networking concepts, (3) some basic background reading on the topic.
 
-| Lecture | Topic                           | Lab                    | Notes |
-|---------|---------------------------------|------------------------|-------|
-| 1       | Intro to Networking             |                        |       |
-| 2       | Intro to Machine Learning       |                        |       |
-| 3       | Network Measurement             |                        |       |
-| 4       | Linear Regression               | IoT: Energy Prediction |       |
-| 5       | Logistic Regression             | DNS Query Detection    |       |
-| 6       | Naive Bayes                     | Spam Filtering         |       |
-| 7       | Nearest Neighbor/Trees/Ensemble | Activity Recognition   |       |
-| 8       | Unsupervised Learning           | Traffic Clustering     |       |
-| 9       | Deep Learning                   | DDoS Detection         |       |
+| Lecture | Topic                           | Activity               | Notes | Slides |
+|---------|---------------------------------|------------------------|-------|--------|
+| 1       | Intro to Networking             |                        |       |        |
+| 2       | Intro to Machine Learning       |                        |       |        |
+| 3       | Network Measurement             |                        |       |        |
+| 4       | Linear Regression               | IoT: Energy Prediction |       |        |
+| 5       | Logistic Regression             | DNS Query Detection    |       |        |
+| 6       | Naive Bayes                     | Spam Filtering         |       |        |
+| 7       | Trees and Ensembles             | Activity Recognition   |       |        |
+| 8       | Unsupervised Learning           | Traffic Clustering     |       |        |
+| 9       | Deep Learning                   | DDoS Detection         |       |        |
 
 Please come to class having done the reading. 
 
