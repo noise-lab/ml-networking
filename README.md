@@ -21,23 +21,27 @@ lecture has (1) a set of notes and slides explaining concepts, (2) an
 accompanying Jupyter Notebook with example applications from networking to
 make the concepts more concrete and further expand on networking concepts.
 
-| Lecture | Topic                     | Activity                | Notes | Slides |
-|---------|---------------------------|-------------------------|-------|--------|
-| 1       | Intro to Networking       | Python Basics           |       |        |
-| 2       | Intro to Machine Learning | Model Selection         |       |        |
-| 3       | Network Measurement       | Packet Capture Analysis |       |        |
-| 4       | Linear Regression         | IoT: Energy Prediction  |       |        |
-| 5       | Logistic Regression       | DNS Query Detection     |       |        |
-| 6       | Naive Bayes               | Spam Filtering          |       |        |
-| 7       | Trees and Ensembles       | Activity Recognition    |       |        |
-| 8       | Unsupervised Learning     | Traffic Clustering      |       |        |
-| 9       | Deep Learning             | DDoS Detection          |       |        |
+| Lecture | Topic                     | Activity                | 
+|---------|---------------------------|-------------------------|
+| 1       | Intro to Networking       | Python Basics           |
+| 2       | Intro to Machine Learning | Model Selection         |
+| 3       | Network Measurement       | Packet Capture Analysis |
+| 4       | Linear Regression         | IoT: Energy Prediction  |
+| 5       | Logistic Regression       | DNS Query Detection     |
+| 6       | Naive Bayes               | Spam Filtering          |
+| 7       | Trees and Ensembles       | Activity Recognition    |
+| 8       | Unsupervised Learning     | Traffic Clustering      |
+| 9       | Deep Learning             | DDoS Detection          |
+
+All of the notebooks, notes, and slides for each lecture can be found in the
+respective directory.
 
 ## Repository
 
 The repository has the following organization:
 
+* [slides/](slides/) - slides for each lecture
+* [notes/](notes/) - notebooks for each lecture
+* [notebooks/](notebooks/) - notebooks for each lecture
 * [pcaps/](pcaps/) - example packet captures used in notebooks
 * [data/](data/) - other data used in notebooks (non-pcap)
-* [lectures/](lectures/) - slides for each lecture
-* [notebooks/](notebooks/) - notebooks for each lecture
