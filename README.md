@@ -42,6 +42,4 @@ The repository has the following organization:
 
 * [slides/](slides/) - slides for each lecture
 * [notes/](notes/) - notebooks for each lecture
-* [notebooks/](notebooks/) - notebooks for each lecture
-* [pcaps/](pcaps/) - example packet captures used in notebooks
-* [data/](data/) - other data used in notebooks (non-pcap)
+* [activities/](activities/) - notebooks for each lecture
