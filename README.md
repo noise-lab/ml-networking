@@ -23,9 +23,9 @@ make the concepts more concrete and further expand on networking concepts.
 
 | Module | Topic                          | Activity                      |
 |--------|--------------------------------|-------------------------------|
-| 1      | Networking Background          | Python Basics                 |
-| 2      | Machine Learning Pipelines     | Pipelines and Model Selection |
-| 3      | Measurement: Data and Feautres | Packet Capture                |
+| 1      | Overview and Motivation        | Python Basics                 |
+| 2      | Measurement: Data and Feautres | Packet Capture                |
+| 3      | Machine Learning Pipelines     | Pipelines and Model Selection |
 | 4      | Linear Regression              | IoT: Energy Prediction        |
 | 5      | Logistic Regression            | DNS Query Detection           |
 | 6      | Naive Bayes                    | Spam Filtering                |
