@@ -21,7 +21,7 @@ lecture has (1) a set of notes and slides explaining concepts, (2) an
 accompanying Jupyter Notebook with example applications from networking to
 make the concepts more concrete and further expand on networking concepts.
 
-| Lecture | Topic                     | Activity                | 
+| Module  | Topic                     | Activity                | 
 |---------|---------------------------|-------------------------|
 | 1       | Intro to Networking       | Python Basics           |
 | 2       | Intro to Machine Learning | Model Selection         |
