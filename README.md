@@ -26,12 +26,15 @@ Please come to class having done the reading.
 
 Each week will also have a short homework assignment and a short accompanying quiz to track your knowledge of the material.
 
+## Resources
+
+* [Wiki](https://github.com/noise-lab/ml-networking/wiki)
+
 ## Repository
 
 The repository has the following organization:
 
-* pcaps/ - example packet captures used in notebooks
-* data/ - other data used in notebooks (non-pcap)
-* lectures/ - slides for each lecture
-* notebooks/ - notebooks for each lecture
-* reading/ - reading for lectures, as applicable
+* [pcaps/](pcaps/) - example packet captures used in notebooks
+* [data/](data/) - other data used in notebooks (non-pcap)
+* [lectures/](lectures/) - slides for each lecture
+* [notebooks/](notebooks/) - notebooks for each lecture
