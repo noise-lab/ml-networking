@@ -21,17 +21,18 @@ lecture has (1) a set of notes and slides explaining concepts, (2) an
 accompanying Jupyter Notebook with example applications from networking to
 make the concepts more concrete and further expand on networking concepts.
 
-| Module  | Topic                     | Activity                | 
-|---------|---------------------------|-------------------------|
-| 1       | Intro to Networking       | Python Basics           |
-| 2       | Intro to Machine Learning | Model Selection         |
-| 3       | Network Measurement       | Packet Capture Analysis |
-| 4       | Linear Regression         | IoT: Energy Prediction  |
-| 5       | Logistic Regression       | DNS Query Detection     |
-| 6       | Naive Bayes               | Spam Filtering          |
-| 7       | Trees and Ensembles       | Activity Recognition    |
-| 8       | Unsupervised Learning     | Traffic Clustering      |
-| 9       | Deep Learning             | DDoS Detection          |
+| Module | Topic                          | Activity                      |
+|--------|--------------------------------|-------------------------------|
+| 1      | Networking Background          | Python Basics                 |
+| 2      | Machine Learning Pipelines     | Pipelines and Model Selection |
+| 3      | Measurement: Data and Feautres | Packet Capture                |
+| 4      | Linear Regression              | IoT: Energy Prediction        |
+| 5      | Logistic Regression            | DNS Query Detection           |
+| 6      | Naive Bayes                    | Spam Filtering                |
+| 7      | Trees and Ensembles            | Activity Recognition          |
+| 8      | Unsupervised Learning          | Traffic Clustering            |
+| 9      | Deep Learning                  | DDoS Detection                |
+| 10     | Automated Machine Learning     | nprintML                      |
 
 All of the notebooks, notes, and slides for each lecture can be found in the
 respective directory.
