@@ -40,6 +40,6 @@ respective directory.
 
 The repository has the following organization:
 
-* [slides/](slides/) - slides for each lecture
-* [notes/](notes/) - notebooks for each lecture
-* [activities/](activities/) - notebooks for each lecture
+* [slides/](./slides/) - slides for each lecture
+* [notes/](./notes/) - notebooks for each lecture
+* [activities/](./activities/) - notebooks for each lecture
