@@ -30,8 +30,8 @@ make the concepts more concrete and further expand on networking concepts.
 | 5      | Logistic Regression            | DNS Query Detection           |
 | 6      | Naive Bayes                    | Spam Filtering                |
 | 7      | Trees and Ensembles            | Activity Recognition          |
-| 8      | Unsupervised Learning          | Traffic Clustering            |
-| 9      | Deep Learning                  | DDoS Detection                |
+| 8      | Deep Learning                  | DDoS Detection                |
+| 9      | Unsupervised Learning          | Traffic Clustering            |
 | 10     | Automated Machine Learning     | nprintML                      |
 
 All of the notebooks, notes, and slides for each lecture can be found in the
