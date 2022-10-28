@@ -42,7 +42,7 @@ def pcap_to_dict(pcap_file):
                     continue
                 
                 pkt_dict["time"] = pkt.time
-                pkt_dict["datetime"] = datetime.datetime.fromtimestamp(pkt.time)
+                pkt_dict["datetime"] = datetime.datetime.fromtimestamp(int(pkt.time))
                 pkt_dict["length"] = len(pkt)
                 pkt_dict["mac_dst"] = pkt[Ether].dst
                 pkt_dict["mac_src"] = pkt[Ether].src
